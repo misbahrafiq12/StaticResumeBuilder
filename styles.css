@@ -1,0 +1,92 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+   background-color: cadetblue;
+  color: #333;
+}
+
+
+.container {
+  width: 60%;
+  margin: 50px auto;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  animation: fadeIn 1s ease-in-out;
+}
+
+
+.header h1 {
+  margin: 0;
+  text-align: center;
+  color: #007BFF;
+  font-size: 2.5rem;
+}
+
+.header p {
+  text-align: center;
+  color: #555;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  border-color: #007BFF;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+  outline: none;
+}
+
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(to right, #007BFF, #0056b3);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background: linear-gradient(to right, #0056b3, #004095);
+  transform: scale(1.05);
+}
+
+
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
